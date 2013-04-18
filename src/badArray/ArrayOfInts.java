@@ -78,17 +78,5 @@ public class ArrayOfInts {
                 maxVal = arr[i];
         return i;
     }
-    /*
-     * Determines the minimum value in the array,
-     * assuming that the array has at least one element.
-     * @return      The lowest value in he array.
-     */
-    public int min() {
-        int minVal = arr[0];
-        for (int i = 1; i < arr.length; ++i)
-            if (minVal > arr[i])
-                minVal = arr[i - 1];
-        return minVal;
-    }
 }
 
